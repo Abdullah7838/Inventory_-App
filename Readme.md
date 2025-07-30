@@ -24,6 +24,18 @@ This is a full-stack MERN project I built using **Vite + Tailwind CSS** on the f
 - **Backend**: Node.js, Express, MongoDB, Mongoose, JWT, bcrypt
 
 ---
+Auth
+Endpoint	Description
+POST	/auth/signup	Register a new user (name, email, password)
+POST	/auth/login	Login and get JWT (email, password)
+
+
+APIs Description 
+POST	/products	Add new product (name, price, categoryId, inStock)
+GET	/products	Get all products, with filters: ?search=name&category=catId&inStock=true
+GET	/products/:id	Get one product by ID
+PUT	/products/:id	Update product
+DELETE	/products/:id	Delete product
 
 ## 🚀 How to Run Locally
 
