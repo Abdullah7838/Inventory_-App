@@ -32,10 +32,12 @@ This is a full-stack MERN project I built using **Vite + Tailwind CSS** on the f
 cd frontend
 npm install
 npm run dev
-
+```
 ### Backend
+
 ```bash
 cd Backend
 npm install
 nodemon index.js
 "# Inventory_-App" 
+```
