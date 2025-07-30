@@ -1,0 +1,8 @@
+@import "tailwindcss";
+.input {
+  @apply w-full p-2 border rounded;
+}
+
+.btn {
+  @apply p-2 rounded font-semibold;
+}
